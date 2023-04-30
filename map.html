@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_02e09b82d34d8e7c3464e8f541dcff37 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_02e09b82d34d8e7c3464e8f541dcff37" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_02e09b82d34d8e7c3464e8f541dcff37 = L.map(
+                "map_02e09b82d34d8e7c3464e8f541dcff37",
+                {
+                    center: [41.4993, -81.6944],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_948dad87c9fbdc81cf953cc530ed7fb1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var marker_a1c443150236b75d146877fdfc7dded1 = L.marker(
+                [41.4840151, -81.7098131],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_d92e5577f5af030ae0a479a94f8b1d6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1c443150236b75d146877fdfc7dded1.setIcon(icon_d92e5577f5af030ae0a479a94f8b1d6b);
+        
+    
+        var popup_baf02082b4e2c45efaa33563d8bdb862 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0023196ee69f9fd4808fc3141079671 = $(`<div id="html_e0023196ee69f9fd4808fc3141079671" style="width: 100.0%; height: 100.0%;">['Momocho', 'custom rating: 6']</div>`)[0];
+                popup_baf02082b4e2c45efaa33563d8bdb862.setContent(html_e0023196ee69f9fd4808fc3141079671);
+            
+        
+
+        marker_a1c443150236b75d146877fdfc7dded1.bindPopup(popup_baf02082b4e2c45efaa33563d8bdb862)
+        ;
+
+        
+    
+    
+            var marker_0fed6b02ff93ace49acf505754c9547a = L.marker(
+                [41.48323, -81.703048],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_6d26f4072362924e50e26c4e9a4f476f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0fed6b02ff93ace49acf505754c9547a.setIcon(icon_6d26f4072362924e50e26c4e9a4f476f);
+        
+    
+        var popup_d9cb846bbcf5dce465116d92e5a99991 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c36635bac3d8e06d45a21b19b7528e0b = $(`<div id="html_c36635bac3d8e06d45a21b19b7528e0b" style="width: 100.0%; height: 100.0%;">['Avo Modern Mexican', 'custom rating: 7']</div>`)[0];
+                popup_d9cb846bbcf5dce465116d92e5a99991.setContent(html_c36635bac3d8e06d45a21b19b7528e0b);
+            
+        
+
+        marker_0fed6b02ff93ace49acf505754c9547a.bindPopup(popup_d9cb846bbcf5dce465116d92e5a99991)
+        ;
+
+        
+    
+    
+            var marker_5b5abfff7f0b2e3b92707a6d9c11793b = L.marker(
+                [41.49931639075364, -81.6985091],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_eed4d26e8dcf8729d3d30d5df8f63bae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b5abfff7f0b2e3b92707a6d9c11793b.setIcon(icon_eed4d26e8dcf8729d3d30d5df8f63bae);
+        
+    
+        var popup_e943417f176432d2c017cd5c1bbca6e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_294adae53b6119aeb4ecff14108fe2ba = $(`<div id="html_294adae53b6119aeb4ecff14108fe2ba" style="width: 100.0%; height: 100.0%;">['Agave & Rye - Cleveland', 'custom rating: 6']</div>`)[0];
+                popup_e943417f176432d2c017cd5c1bbca6e3.setContent(html_294adae53b6119aeb4ecff14108fe2ba);
+            
+        
+
+        marker_5b5abfff7f0b2e3b92707a6d9c11793b.bindPopup(popup_e943417f176432d2c017cd5c1bbca6e3)
+        ;
+
+        
+    
+    
+            var marker_48fcafb605ce0ce5d05ef28e615f1c8e = L.marker(
+                [41.4984058257344, -81.6893222744518],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_e72859a11337c725744e11df249f07a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48fcafb605ce0ce5d05ef28e615f1c8e.setIcon(icon_e72859a11337c725744e11df249f07a9);
+        
+    
+        var popup_66ae81bc6fcfa27b9815eaff31c05358 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_569efed514bc17adb3e48c882277ff01 = $(`<div id="html_569efed514bc17adb3e48c882277ff01" style="width: 100.0%; height: 100.0%;">['Barrio', 'custom rating: 8']</div>`)[0];
+                popup_66ae81bc6fcfa27b9815eaff31c05358.setContent(html_569efed514bc17adb3e48c882277ff01);
+            
+        
+
+        marker_48fcafb605ce0ce5d05ef28e615f1c8e.bindPopup(popup_66ae81bc6fcfa27b9815eaff31c05358)
+        ;
+
+        
+    
+    
+            var marker_87d37a9361c1d5418c80082e47e029f5 = L.marker(
+                [41.408116463651794, -81.497417],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_30e2ec1910af22ad37e0e3d774eb5e6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_87d37a9361c1d5418c80082e47e029f5.setIcon(icon_30e2ec1910af22ad37e0e3d774eb5e6a);
+        
+    
+        var popup_ce1e5c9888204ac20ac4db05f93b8283 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c1a390a9874681d750a14d658e81973 = $(`<div id="html_5c1a390a9874681d750a14d658e81973" style="width: 100.0%; height: 100.0%;">['Las Americas', 'custom rating: 9']</div>`)[0];
+                popup_ce1e5c9888204ac20ac4db05f93b8283.setContent(html_5c1a390a9874681d750a14d658e81973);
+            
+        
+
+        marker_87d37a9361c1d5418c80082e47e029f5.bindPopup(popup_ce1e5c9888204ac20ac4db05f93b8283)
+        ;
+
+        
+    
+    
+            var marker_dfc919a32ae0249fe9a0ea2452c029e9 = L.marker(
+                [41.48424, -81.73008],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_9bff33b341ad118d840e4ccc5746e7e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dfc919a32ae0249fe9a0ea2452c029e9.setIcon(icon_9bff33b341ad118d840e4ccc5746e7e6);
+        
+    
+        var popup_cbefbc1d2bbbe77c6e1b23da420c1371 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a5612f3fa4dc50d940644e2314c4672 = $(`<div id="html_5a5612f3fa4dc50d940644e2314c4672" style="width: 100.0%; height: 100.0%;">['Blue Habanero', 'custom rating: 10']</div>`)[0];
+                popup_cbefbc1d2bbbe77c6e1b23da420c1371.setContent(html_5a5612f3fa4dc50d940644e2314c4672);
+            
+        
+
+        marker_dfc919a32ae0249fe9a0ea2452c029e9.bindPopup(popup_cbefbc1d2bbbe77c6e1b23da420c1371)
+        ;
+
+        
+    
+    
+            var marker_d256c5d0247d18ad6031d07cc83c981a = L.marker(
+                [41.5108337402344, -81.6961975097656],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_404ca804134ead2a03155fffc9252a4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d256c5d0247d18ad6031d07cc83c981a.setIcon(icon_404ca804134ead2a03155fffc9252a4f);
+        
+    
+        var popup_d14955e6d73aaa2e529f6e4a70d73ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8085c3f1e25166dcd7300839631b967c = $(`<div id="html_8085c3f1e25166dcd7300839631b967c" style="width: 100.0%; height: 100.0%;">['Nuevo Modern Mexican & Tequila Bar', 'custom rating: 5']</div>`)[0];
+                popup_d14955e6d73aaa2e529f6e4a70d73ef4.setContent(html_8085c3f1e25166dcd7300839631b967c);
+            
+        
+
+        marker_d256c5d0247d18ad6031d07cc83c981a.bindPopup(popup_d14955e6d73aaa2e529f6e4a70d73ef4)
+        ;
+
+        
+    
+    
+            var marker_7e947226bf6dc0438e4670d3c203d9da = L.marker(
+                [41.5082566, -81.5807158],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_3e07455cdfa9d0974249574d6da6e924 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7e947226bf6dc0438e4670d3c203d9da.setIcon(icon_3e07455cdfa9d0974249574d6da6e924);
+        
+    
+        var popup_442783a53eeefe54f335983c4b3ba97b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c11c8fdbc32389d35368973c4a4a4d45 = $(`<div id="html_c11c8fdbc32389d35368973c4a4a4d45" style="width: 100.0%; height: 100.0%;">['Cilantro Taqueria', 'custom rating: 6']</div>`)[0];
+                popup_442783a53eeefe54f335983c4b3ba97b.setContent(html_c11c8fdbc32389d35368973c4a4a4d45);
+            
+        
+
+        marker_7e947226bf6dc0438e4670d3c203d9da.bindPopup(popup_442783a53eeefe54f335983c4b3ba97b)
+        ;
+
+        
+    
+    
+            var marker_973e281e77a21988110c4d9a52b9398b = L.marker(
+                [41.478827, -81.769135],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_c50e4eab6f6f1a6a3f433c6024cdf309 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_973e281e77a21988110c4d9a52b9398b.setIcon(icon_c50e4eab6f6f1a6a3f433c6024cdf309);
+        
+    
+        var popup_c192efad3ebd269fea3c90697739c5e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fc812953f82ea93e7196fb05af9c1d6 = $(`<div id="html_7fc812953f82ea93e7196fb05af9c1d6" style="width: 100.0%; height: 100.0%;">['Hacienda Tapatia', 'custom rating: 5']</div>`)[0];
+                popup_c192efad3ebd269fea3c90697739c5e9.setContent(html_7fc812953f82ea93e7196fb05af9c1d6);
+            
+        
+
+        marker_973e281e77a21988110c4d9a52b9398b.bindPopup(popup_c192efad3ebd269fea3c90697739c5e9)
+        ;
+
+        
+    
+    
+            var marker_d4f9ca2326bb29018bd4adc9f1d3efa9 = L.marker(
+                [41.4987716674805, -81.7007598876953],
+                {}
+            ).addTo(map_02e09b82d34d8e7c3464e8f541dcff37);
+        
+    
+            var icon_914df9cdeabce438de623a2c47a104b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4f9ca2326bb29018bd4adc9f1d3efa9.setIcon(icon_914df9cdeabce438de623a2c47a104b9);
+        
+    
+        var popup_c3f858f882be121fac53044c185ba46f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77f5e2ed156844015faf2deaf4202014 = $(`<div id="html_77f5e2ed156844015faf2deaf4202014" style="width: 100.0%; height: 100.0%;">['Camino Taco & Tequila Bar', 'custom rating: 8']</div>`)[0];
+                popup_c3f858f882be121fac53044c185ba46f.setContent(html_77f5e2ed156844015faf2deaf4202014);
+            
+        
+
+        marker_d4f9ca2326bb29018bd4adc9f1d3efa9.bindPopup(popup_c3f858f882be121fac53044c185ba46f)
+        ;
+
+        
+    
+</script>
+</html>
